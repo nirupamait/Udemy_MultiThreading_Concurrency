@@ -1,0 +1,6 @@
+Thread Class:: Encapsulates all thread related functionality.
+
+Two ways top run code on a new thread.
+a.Implement Runnable interface and pass to new Thread object.
+b.Extend Thread class and create new object of that.
+
