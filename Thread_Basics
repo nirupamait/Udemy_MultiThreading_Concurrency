@@ -29,6 +29,19 @@ Scenario-2
 Code in worker thread is not under our control, and we do not want it to block our application from terminating.
 eg:: Worker thread that uses an external library.
 
+Thread Coordination:: Different threads run independently.
+Order of execution is out of our control.
+
+What happens in case one thread depends on another thread.
+
+public final void join()
+public final void join(int millisec)
+
+When the join method is invoked, the current thread  goes into the wait state.The thread on which wait has been invoked will execute till it finishes.
+
+
+
+
 
 
 
